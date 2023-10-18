@@ -1,5 +1,6 @@
 import numpy as np
 import pandas as pd
+import sklearn
 from sklearn.model_selection import train_test_split
 from sklearn.base import BaseEstimator, TransformerMixin
 from sklearn.pipeline import Pipeline
@@ -19,9 +20,9 @@ from streamlit_lottie import st_lottie_spinner
 
 
 
-train_original = pd.read_csv('https://raw.githubusercontent.com/semasuka/Credit-card-approval-prediction-classification/main/datasets/train.csv')
+train_original = pd.read_csv('https://raw.githubusercontent.com/vishnureddy0/Credit-Card-Approval-Prediction/main/data/train.csv')
 
-test_original = pd.read_csv('https://raw.githubusercontent.com/semasuka/Credit-card-approval-prediction-classification/main/datasets/test.csv')
+test_original = pd.read_csv('https://raw.githubusercontent.com/vishnureddy0/Credit-Card-Approval-Prediction/main/data/test.csv')
 
 full_data = pd.concat([train_original, test_original], axis=0)
 
