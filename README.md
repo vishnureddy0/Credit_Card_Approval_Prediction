@@ -6,8 +6,8 @@
 
 ![Type of ML](https://img.shields.io/badge/Type%20of%20ML-Binary%20Classification-red)
 ![License](https://img.shields.io/badge/License-MIT-green)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1CfV6yEsHBjFiJbTKwY72k2g4AvszcF5R)
-[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+
+
 
 Badge [source](https://shields.io/)
 
